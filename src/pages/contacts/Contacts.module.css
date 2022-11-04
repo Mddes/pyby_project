@@ -1,0 +1,38 @@
+@import "../../index.css";
+
+.wrapp {
+  display: flex;
+  padding: 20px;
+}
+.smoke {
+  color: var(--smoke-gray);
+  font-size: 18px;
+}
+.btn {
+  width: var(--btnWidth);
+  height: var(--btnHeight);
+  background-color: var(--yellow);
+  border-radius: 25px;
+  border: none;
+  font-weight: 800;
+}
+
+.rightTop > * {
+  margin: 20px 0;
+}
+
+.leftTop > * {
+    margin: 20px 0;
+  }
+  
+.a {
+    text-decoration: none;
+    color: var(--yellow);
+  }
+  .flex {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    font-size: 30px;
+
+  }

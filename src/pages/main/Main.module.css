@@ -1,0 +1,32 @@
+@import "../../index.css";
+
+.wrapp {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+
+}
+.logo {
+    max-width: 10rem;
+}
+.menu ul{
+    display: flex;
+    height: 100%;
+}
+.menu ul li{
+    list-style-type: none;
+    margin: 0 5px;
+    
+}
+.btn {
+ background: var(--gradien-green);
+ width: 200px;
+ height: 60px;
+ border-radius: 20px;
+ border: 2px solid black;
+ cursor: pointer;
+}

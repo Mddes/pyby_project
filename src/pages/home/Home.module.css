@@ -1,0 +1,58 @@
+@import "../../index.css";
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    text-align: center;
+    max-width: 964px;
+    width: 100%;
+    margin: auto;
+}
+
+.blue {
+    color: var(--blue);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.smoke {
+    color: var(--smoke-gray);
+    font-size: 18px;
+}
+.btn {
+    width: var(--btnWidth);
+    height: var(--btnHeight);
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 7px;
+    color: #1A202C;
+    font-size: 14px;
+    font-weight: 900;
+    margin:0 10px ;
+    cursor: pointer;
+}
+
+.btnWrapp {
+    margin-top: 60px;
+}
+.fs60 {
+    font-size: var(--fs40)
+}
+.cardWrapp {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--blue);
+    background-color: #00a1ff14;
+    border-radius: 10px;
+    width: 33%;
+    text-align: center;
+    padding: 5px;
+
+}

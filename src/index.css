@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+:root {
+  --background-color: #050505;
+  --main-color: #f6f6f6;
+  --blue:#00a0df;
+  --yellow:#dfcf00;
+  --gradien-green: linear-gradient(90deg, rgb(90, 237, 166), rgb(90, 219, 237));
+  --smoke-gray: #8a8f98;
+  --btnWidth: 150px;
+  --btnHeight: 50px;
+  --main-grad: linear-gradient(to bottom, #050505, #141a20);
+  --fs60: 60px;
+  --fs40: 40px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+html, body, #root {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+  background: var(--background-color);
+  color: var(--main-color);
+}
+h1 {
+  font-size: 60px;
+}
+
