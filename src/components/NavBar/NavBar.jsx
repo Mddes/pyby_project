@@ -18,9 +18,9 @@ const NavBar = () => {
         {/* <Link to="/main"><span>FAQ</span></Link> */}
       </div>
       <div className="navbar__enter">
-        <div className="enter-login"><Link to="/login"><span>Вход</span></Link></div>
+        <div className="enter-login"><Link to="/pyby_project/login"><span>Вход</span></Link></div>
         <span style={{color:"white"}}> / </span>
-        <div className="enter-reg"> <Link to="/registration"><span>Регистрация</span></Link></div>
+        <div className="enter-reg"> <Link to="/pyby_project/registration"><span>Регистрация</span></Link></div>
       </div>
     </div>
   );
