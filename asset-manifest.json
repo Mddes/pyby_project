@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pyby_project/static/css/main.47bf2255.css",
+    "main.js": "/pyby_project/static/js/main.52c249d5.js",
+    "static/media/login_bcg.jpg": "/pyby_project/static/media/login_bcg.51f28af8985cd5810ad1.jpg",
+    "index.html": "/pyby_project/index.html",
+    "main.47bf2255.css.map": "/pyby_project/static/css/main.47bf2255.css.map",
+    "main.52c249d5.js.map": "/pyby_project/static/js/main.52c249d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47bf2255.css",
+    "static/js/main.52c249d5.js"
+  ]
+}
