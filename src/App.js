@@ -26,32 +26,32 @@ function App() {
   // };
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/pyby_project",
       element: (
         // <ProtectedRoute></ProtectedRoute>
         <Layout />
       ),
       children: [
         {
-          path: "/",
+          path: "/pyby_project",
           element: <Home />,
         },
       ],
     },
     {
-      path: "/login",
+      path: "/pyby_project/login",
       element: (<> <NavBar /> <Login /></>) ,
     },
     {
-      path: "/main",
+      path: "/pyby_project/main",
       element: (<> <NavBar /> <Main/></>),
     },
     {
-      path: "/contacts",
+      path: "/pyby_project/contacts",
       element: (<> <NavBar /> <Contacts/></>),
     },
     {
-      path: "/registration",
+      path: "/pyby_project/registration",
       element: (<> <NavBar /> <Registration /></>) ,
     },
   ]);

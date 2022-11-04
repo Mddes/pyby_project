@@ -7,7 +7,7 @@ const Main = () => {
       <div className={styles.navbar}>
         <div className={styles.menu}>
           <ul>
-            <Link to="/">
+            <Link to="/pyby_project">
               <button className={styles.btn}>home</button>
             </Link>
           </ul>

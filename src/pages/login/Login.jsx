@@ -8,7 +8,7 @@ const Login = () => {
   return (
       <div className="login">
         <div className="login__container">
-            <form action="/" className="login-form">
+            <form action="/pyby_project" className="login-form">
             <MPInput placeholder={"Email"}></MPInput>
             <MPInput placeholder={"Пароль"}></MPInput>
             <MPButton></MPButton>

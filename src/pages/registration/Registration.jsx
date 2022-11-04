@@ -6,7 +6,7 @@ import "./Registration.css";
 const Registration = () => {
   return (
     <div className="reg__container">
-    <form action="/">
+    <form action="/pyby_project">
       <div className="left-part">
       <MPInput placeholder={"Имя"}></MPInput>
       <MPInput  placeholder={"Пароль"}></MPInput>

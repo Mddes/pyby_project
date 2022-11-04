@@ -18,10 +18,10 @@ const Home = () => {
           <br /> используя наиболее эффективные форматы рекламы.
         </p>
         <div className={styles.btnWrapp}>
-          <Link to="/main">
+          <Link to="/pyby_project/main">
             <button className={styles.btn}>Рекламодателям</button>
           </Link>
-          <Link to="/main">
+          <Link to="/pyby_project/main">
           <button className={styles.btn}>Вебмастерам</button>
           </Link>
         </div>
